@@ -19,7 +19,7 @@ const server = http.createServer((req, res) => {
 
     if (pathname === '/') {
         res.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8' });
-        res.end('<h1>Ana Sayfa</h1><p>Yozgat Bozok Üniversitesi Bilgisayar Mühendisliği öğrencisiyim.</p><a href="/hakkimda">Hakkımda Sayfası</a>');
+        res.end('<h1>Ana Sayfa - Dal Testi</h1><p>Yozgat Bozok Üniversitesi Bilgisayar Mühendisliği öğrencisiyim.</p><a href="/hakkimda">Hakkımda Sayfası</a>');
     } 
     else if (pathname === '/hakkimda') {
         res.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8' });
